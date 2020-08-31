@@ -1,0 +1,18 @@
+# Build settings
+
+markdown: kramdown
+permalink: none
+plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+permalink: /:title
+
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+title:		      "Minimal University, A Pleasant Jekyll Theme"
+description:	      "This is the base jekyll website template for my university courses, also convenient for a blog or wiki."
+author:              "Lee Tusman"

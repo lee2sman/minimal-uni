@@ -1,0 +1,67 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Pages', url: 'pages/posts.html'}
+- {name: 'About', url: 'pages/about.html'}
+- {name: 'Contact', url: 'pages/contact.html'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Class website for Purchase College course Special Projects in Tiny Computing, Fall 2019 '
+  rel-author: 'https://plus.google.com/u/0/#'
+  rel-publisher: 'https://plus.google.com/u/0/#'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: ''
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'thathungrymind'
+
+#-------------------------------
+# About Section
+
+about: >
+  # Special Projects in Tiny Computing
+
+  This is the class website for Special Projects in Tiny Computing at [Purchase College](https://www.purchase.edu/). Students create custom projects using inexpensive, bank card–sized computers for art installations and works for the public good.  Students will conceptualize, design and implement new computer-based devices and participate in critique of contemporary technology and networked devices. In the process, their knowledge of text-based interfaces, free culture, collaboration, circuit building, and the history of creative computing/hacking is deepened. This site is hosted on GitHub Pages using a modified [Portfolio Jekyll Theme](https://lenpaul.github.io/portfolio-jekyll-theme). Raspberry Pi robotics image from Learn Robotics. 
+
+contact: >
+  # Contact
+
+  You may contact Lee through [email](mailto:lee.tusmanATpurchase.edu) if you have any questions or would like to bring up any issues.
+
+#-------------------------------
+# Work Section
+
+projects:
+#- {name: 'Project One', folder: 'proj-1', file: 'projects/proj-1.html'}
+#- {name: 'Project Two', folder: 'proj-2', file: 'projects/proj-2.html'}
+#- {name: 'Project Three', folder: 'proj-3', file: 'projects/proj-3.html'}
+#- {name: 'Project Four', folder: 'proj-4', file: 'projects/proj-4.html'}
+#- {name: 'Project Five', folder: 'proj-5', file: 'projects/proj-5.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+#- {icon: 'twitter', link: '#'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
