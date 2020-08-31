@@ -18,6 +18,16 @@ bundle exec jekyll serve --baseurl ''
 
 I need that baseurl addon because I'm serving on a subdomain and this lets me test locally with proper permalinks before deploying via GitHub pages. If that last sentence means nothing to you, feel free to ignore it!
 
+### How to add new posts
+
+I have a navigation link labeled **Pages** in the nav at the top of each page. Clicking that will display all of your blog posts.
+
+You can place blog posts in the ```_posts``` folder. I recommend deleting my own posts and adding your own. Images go in the ```assets/img``` directory. 
+
+The easiest way to get started is to copy one of my posts and then change the title, the front matter at the top and the body content. If you are still running the jekyll serve command above it will rebuild the site. You can then git add and commit your post and when you push it, it will deploy to your website.
+
+Info in the Jekyll documentation on including images and resources can be found [here](https://jekyllrb.com/docs/posts/#including-images-and-resources).
+
 ## How to customize
 
 ### Change the _config.yml file
