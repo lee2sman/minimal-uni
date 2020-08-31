@@ -13,7 +13,7 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		      "Minimal University, A Pleasant Jekyll Theme"
+title:		      "Minimal Uni, A Pleasant Jekyll Theme"
 description:	      "This is the base jekyll website template for my university courses, also convenient for a blog or wiki."
 author:              "Lee Tusman"
 
