@@ -8,6 +8,8 @@ It is responsive so it should look nice on phones and tablets as well.
 
 There's probably still a bit of room for improvement in the design. Feel free to make a pull request or open an issue.
 
+![Minimal University](assets/img/screenshot.png)  
+
 ### Take it for a spin
 
 Run 
