@@ -1,4 +1,8 @@
-# Minimal University Theme - a Jekyll Theme for a class website or personal blog or wiki
+# Minimal Uni 
+
+Live [demo](https://leetusman.com/minimal-uni/)
+
+### A Jekyll Theme for a class website or personal blog or wiki
 
 This is the base Jekyll template for my university courses. Fork this repo or just download and unzip.
 
@@ -8,7 +12,7 @@ It is responsive so it should look nice on phones and tablets as well.
 
 There's probably still a bit of room for improvement in the design. Feel free to make a pull request or open an issue.
 
-![Minimal University](assets/img/screenshot.png)  
+![Minimal Uni](assets/img/screenshot.jpg)  
 
 ### Take it for a spin
 

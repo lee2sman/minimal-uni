@@ -2,9 +2,13 @@
 # General Site Settings
 
 menu:
-- {name: 'Pages', url: 'pages/posts.html'}
-- {name: 'About', url: 'pages/about.html'}
-- {name: 'Contact', url: 'pages/contact.html'}
+- {name: 'Pages', url: 'pages/posts'}
+- {name: 'About', url: 'pages/about'}
+- {name: 'Contact', url: 'pages/contact'}
+#OLDER
+#- {name: 'Pages', url: 'pages/posts.html'}
+#- {name: 'About', url: 'pages/about.html'}
+#- {name: 'Contact', url: 'pages/contact.html'}
 
 #-------------------------------
 # SEO Section
@@ -33,15 +37,21 @@ google-analytics-ua: ''
 # Change to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'thathungrymind'
+  disqus_shortname: 'namegoeshere'
 
 #-------------------------------
 # About Section
 
 about: >
-  # Special Projects in Tiny Computing
+  # Minimal-Uni
 
-  This is the class website for Special Projects in Tiny Computing at [Purchase College](https://www.purchase.edu/). Students create custom projects using inexpensive, bank card–sized computers for art installations and works for the public good.  Students will conceptualize, design and implement new computer-based devices and participate in critique of contemporary technology and networked devices. In the process, their knowledge of text-based interfaces, free culture, collaboration, circuit building, and the history of creative computing/hacking is deepened. This site is hosted on GitHub Pages using a modified [Portfolio Jekyll Theme](https://lenpaul.github.io/portfolio-jekyll-theme). Raspberry Pi robotics image from Learn Robotics. 
+**Minimal-Uni** is the base class website structure for my current university courses. The course repo can be found and downloaded or forked from [here](https://github.com/lee2sman/minimal-uni).
+
+This theme could also be used to create a blog, personal website or a wiki. It is built on [Jekyll](https://jekyllrb.com/) static site builder, hosted on GitHub pages. The theme is meant to be modified. At the very least, change the title, text, and modify the border color of the frame around the page by modifying the $border-color inside ```assets/css/all.sass```.
+
+Created by [Lee Tusman](http://leetusman.com).
+
+This theme is licensed under [The Anti-Capitalist Software License](https://anticapitalist.software/).
 
 contact: >
   # Contact
@@ -52,11 +62,10 @@ contact: >
 # Work Section
 
 projects:
+# To list project pages, uncomment the following lines and add these files!
 #- {name: 'Project One', folder: 'proj-1', file: 'projects/proj-1.html'}
 #- {name: 'Project Two', folder: 'proj-2', file: 'projects/proj-2.html'}
 #- {name: 'Project Three', folder: 'proj-3', file: 'projects/proj-3.html'}
-#- {name: 'Project Four', folder: 'proj-4', file: 'projects/proj-4.html'}
-#- {name: 'Project Five', folder: 'proj-5', file: 'projects/proj-5.html'}
 
 #-------------------------------
 # Contact Section
