@@ -19,10 +19,14 @@ There's probably still a bit of room for improvement in the design. Feel free to
 Run 
 
 ```
-bundle exec jekyll serve --baseurl ''
+jekyll serve
 ```
 
-I need that baseurl addon because I'm serving on a subdomain and this lets me test locally with proper permalinks before deploying via GitHub pages. If that last sentence means nothing to you, feel free to ignore it!
+OR if you will be deploying this to your own custom URL subpage: http://website.com/blog for example, then:
+
+```
+jekyll serve --baseurl ''
+```
 
 ### How to add new posts
 
