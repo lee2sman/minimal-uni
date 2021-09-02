@@ -19,6 +19,6 @@ author:              "Lee Tusman"
 
 
 baseurl: "/minimal-university" # the subpath of your site, e.g. /blog
-url: "http://leetusman.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://leetusman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 2sman2sman
 github_username:  lee2sman
