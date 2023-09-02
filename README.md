@@ -14,18 +14,22 @@ There's probably still a bit of room for improvement in the design. Feel free to
 
 ![Minimal Uni](assets/img/screenshot.jpg)  
 
+## Install
+
+```
+sudo gem install jekyll-sitemap jekyll-feed jekyll-seo-tag
+
+touch Gemfile
+bundle add jekyll-sitemap jekyll-feed jekyll-seo-tag
+bundle install
+```
+
 ### Take it for a spin
 
 Run 
 
 ```
-jekyll serve
-```
-
-OR if you will be deploying this to your own custom URL subpage: http://website.com/blog for example, then:
-
-```
-jekyll serve --baseurl ''
+bundle exec jekyll serve --baseurl ''
 ```
 
 ### How to add new posts
